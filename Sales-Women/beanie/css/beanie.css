@@ -1,0 +1,241 @@
+body {
+	margin-left: 15%;
+	margin-right: 15%;
+	font-family: georgia;
+	padding-bottom: 1500px;
+}
+
+.title {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 70px;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+}
+
+
+
+.navbar .active {
+	background-color: #666666;
+}
+
+.navi-top {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navi-top li {
+	display: inline;
+}
+
+.navi-top li a {
+	color: black;
+	display: block;
+	text-align: center;
+	font-size: 14px;
+}
+
+li {
+	float: left;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    font-family: Georgia;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #000000;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #cccccc;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.label {
+    position: absolute;
+    top: 19em;
+    left: 19em;
+    font-size: 18px;
+		font-weight: bold;
+}
+
+.pricetag {
+    position: absolute;
+		z-index: 1;
+    top: 25em;
+    left: 65em;
+    font-size: 20px;
+		color: red;
+}
+
+.sizetag {
+    position: absolute;
+		z-index: 1;
+    top: 35em;
+    left: 75em;
+    font-size: 16px;
+}
+
+.quantitytag {
+    position: absolute;
+		z-index: 1;
+    top: 38.6em;
+    left: 75em;
+    font-size: 16px;
+}
+
+.producttag {
+    position: absolute;
+		z-index: 1;
+    top: 23em;
+    left: 67em;
+    font-size: 18px;
+		font-weight: bold;
+
+}
+
+
+.square {
+		position: absolute;
+    background-color: white;
+    width: 400px;
+		height: 500px;
+    border: 1px solid black;
+    padding: 25px;
+    margin: 25px;
+		top: 23em;
+		left: 70em;
+}
+
+
+
+
+
+.sizebox{
+	position: absolute;
+	top: 35em;
+	left:70%;
+
+
+}
+.Quantitybox{
+	position: absolute;
+	top: 614px;
+	left:70%;
+
+}
+
+
+
+.button {
+  background-color: red;
+	position: absolute;
+	top: 52em;
+	left:70%;
+  border: none;
+  color: white;
+  padding: 8px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 3px 1px;
+  cursor: pointer;
+}
+
+.pdesc{
+	position: absolute;
+	font-size: 11pt;
+	top: 80em;
+	left: 30em;
+
+}
+.returns{
+	position: absolute;
+	top:100em;
+	left:30em;
+	font-size: 11pt;
+
+}
+#exzoom{
+	position: absolute;
+	z-index: 50;
+	top: 80%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+	width: 600px;
+
+}
+.free{
+	position: absolute;
+	top: 40em;
+	left: 67em;
+	z-index: 1;
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+.delivery{
+	position: absolute;
+	top: 50em;
+	left: 76em;
+	z-index: 1;
+}
+/* END HEADER CSS*/
